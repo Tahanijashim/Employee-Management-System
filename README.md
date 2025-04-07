@@ -19,8 +19,8 @@ This system provides a simple and intuitive interface for managing employee reco
 🛠️ Tech Stack
 Frontend: HTML, CSS, JavaScript
 
-Backend: PHP / Python / Node.js (choose based on your actual stack)
+Backend: MySQL
 
 Database: MySQL
 
-Tools Used: XAMPP / phpMyAdmin / MySQL Workbench
+Tools Used:  MySQL Workbench

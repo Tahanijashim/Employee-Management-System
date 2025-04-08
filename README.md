@@ -1,26 +1,30 @@
-The Employee Management System is a web-based application designed to streamline the management of employee data and operations within an organization. It helps HR teams and administrators efficiently manage employees, departments, salaries, projects, and leaves using a centralized system.
+**Employee Management System (SQL Project)**
+This project is a SQL-based Employee Management System designed to help organizations efficiently store, manage, and query employee-related data including departments, salaries, projects, and leaves.
 
-🚀 Project Overview
-This system provides a simple and intuitive interface for managing employee records and organizational data. The key objective is to automate repetitive administrative tasks and maintain accurate employee information in a structured database.
+**Project Overview**
+Employee Management: Add, update, and retrieve employee records with details like job title, contact, and department.
+Department Management: Manage departments and assign department managers.
+Salary Management: Record employee salaries, bonuses, and calculate total salary.
+Project Management: Assign employees to projects and track project status.
+Leave Management: Handle employee leave requests with status tracking.
 
-✅ Core Features
-👤 Employee Management – Add, edit, view, and delete employee records
+**Database Structure**
+The database consists of 6 main tables:
 
-🏢 Department Management – Organize employees by departments
+employees
+department
+salaries
+projects
+employee_projects
+leaves
+Each table includes appropriate primary keys and foreign key constraints to maintain data integrity.
 
-💰 Salary Management – Assign and update employee salaries
+**Queries Implemented**
+Fetch all employees along with their department and salary.
+List employees working on a specific project.
+Get the total salary expense.
+Find employees with pending leave requests.
+List departments with the number of employees in each.
 
-📂 Project Management – Assign employees to projects
-
-📝 Leave Management – Track employee leave requests and status
-
-🔐 User Authentication – Admin login for secure access
-
-🛠️ Tech Stack
-Frontend: HTML, CSS, JavaScript
-
-Backend: MySQL
-
-Database: MySQL
-
-Tools Used:  MySQL Workbench
+**Technologies Used**
+MySQL Workbench (for testing and running queries) 
